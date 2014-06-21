@@ -1,0 +1,198 @@
+html, body { width: 100%; }
+a { color: rgb(80,80,180); }
+.title { color: rgb(80,80,80); }
+
+divxx { border: solid black 1px; }
+#sidepanel { width: 54%; float: left; clear: left; }
+	#stats { width: 30%; float: left; padding-bottom: 0.5em; }
+	#query { width: 70%; float:left; }
+	#time  { width: 100%; float: left; clear: both; }
+	#words  { width: 100%; float: left; clear: both; }
+	#tweets { width: 100%; float: left; clear: both; }
+	#tweeps { width: 25%; float: left; clear: left; }
+	#tags { width: 25%; float: left; }
+	#mentions { width: 25%; float: left; }
+	#contribs { width: 25%; float: left; }
+	#urls { width: 100%; float: left; clear: left; }
+#mainpanel { width: 45%; float: left; }
+	#all-tweets { width: 100%; }
+	#video { width: 100%; }
+#foot { width: 100%; clear: both; }
+label { display: block; float:left; clear: left; width: 70px; }
+#dates {
+	margin: 0 1em;
+	border: solid #999999 1px;
+}}
+.stats {
+	padding: 0;
+	margin: 1em;
+}
+.stats li {
+	display: block;
+}
+.stats span {
+	display: block;
+	float:left; 
+	width: 70%;
+}
+.inputtext { width: 70%; }
+.max { font-weight: bold; }
+.remove {
+	padding: 0.5em;
+	margin: 0;
+}
+.remove li {
+	display: inline;
+	padding-left: 1em;
+}
+.remove li a {
+	background-image: url("DeleteRed.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 1em auto;
+	padding-right: 1em;
+}
+.modes {
+	padding: 0.5em;
+	margin: 0;
+}
+.modes li {
+	display: inline;
+	padding-left: 1em;
+}
+form { padding: 0; margin: 0 0.5em 0.5em 0.5em; }
+input { margin-bottom: 0.5em; }
+#all-tweets form {
+	float: right;
+	padding-right: 1em;
+}
+.title {
+	font-weight: bold;
+	font-size: 125%;
+	margin: 0.3em;
+	padding: 0.1em 0.5em;
+	background-color: #dddddd;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#excludes {
+	display: none;
+}
+.smaller {
+	font-size: 80%;
+}
+.tweets {
+	width: 95%;
+	margin: 0 1.5em;
+	padding: 0;
+}
+.tweets li{
+	display: block;
+	float: left;
+	clear: both;
+	width: 95%;
+	padding: 1em;
+	border-bottom: solid #999999 1px;
+}
+.tweets li.first{
+	border-top: solid #999999 1px;
+}
+.tweets li.odd{
+	background-color: #f9f9f9;
+}
+.twclass {
+	display: block;
+	height: 4em;
+	width: 4em;
+	float: left;
+	color: white;
+}
+.tw {
+	display: block;
+	float: left;
+	width: 90%;
+}
+.twtweet {
+	background-image: url("social_twitter_bird_zw.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 3em auto;
+}
+.twretweet {
+	background-image: url("social_twitter_retweet_zw.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 3em auto;
+}
+.twcomment {
+	background-image: url("social_twitter_retweet_zw_comment.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 3em auto;
+}
+.twreply {
+	background-image: url("social_twitter_retweet_zw_reply.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 3em auto;
+}
+.twfrom {
+	display: block;
+	float: left;
+	font-size: 125%;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+.twtext {
+	display: block;
+	clear: both;
+}
+.twpublished {
+	display: block;
+	float: right;
+	font-size: 80%;
+	padding-top: 0.5em;
+}
+.pagenav {
+	margin-left: 1em;
+	clear: left;
+}
+.pagenav a {
+	margin-left: 0.5em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.fixp {
+	position: absolute;
+	left: 50px;
+}
+
+iframe.ivideo {
+	margin: 1em;
+}
+
+.timeline { border-collapse: collapse; display: block; }
+.timeline td { color: #fff; (:float: left;:) font-size: 10px; height: 10px; width: 10px; }
+.timeline td.n { border-bottom: 2px dashed #ccc; }
+.timeline td.s { border-left: 2px solid blue; }
+.timeline td.y { border-top: 2px solid blue; cursor: pointer; }
+.timeline td.e { border-right: 2px solid blue; }
+.timeline td.y:hover, .timeline td.yh  { border-color: #f00; }
+
+.program, .episodes {
+	clear: both;
+}
+.episodes li {
+	display: block;
+	margin: 1em;
+	float: left;
+	width: 300px;
+}
+.episodes div {
+	width: 300px;
+	text-align: center;
+}
